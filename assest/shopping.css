@@ -1,0 +1,375 @@
+body{
+    background-color: rgba(0,224,255,0.5699999928474426);
+    font-family:inter;
+   overflow: hidden;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    margin-top: 50px;
+}
+header .shopping{
+    position: relative;
+    text-align: right;
+}
+header .shopping img{
+    width: 35px;
+    position: absolute;
+    top: 49px;
+    right: 16%;
+    
+   
+}
+
+
+
+header .shopping span{
+    background: rgba(255,109,10,1);
+ 
+    border-radius: 70%;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 83%;
+    padding: 2px 5px;
+}
+
+.cdshop{
+    
+        width: 393px;
+        color: rgba(0,0,0,1);
+        position: absolute;
+        top: 40px;
+        left: 88px;
+        font-family: Inter;                       
+        font-weight: Regular;
+        font-size: 14px;
+        opacity: 1;
+        text-align: left;
+      }
+
+.logo {
+    width: 27px;
+    height: 30px;
+    background: url("images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 30px;
+    left: 52px;
+    overflow: hidden;
+  }
+.list{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+    row-gap: 20px;
+    margin-top: 50px;
+    position: absolute;
+    top: 20%;
+    left:10%;
+
+   
+}
+
+
+
+
+.list .item{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-right: 27px;
+    box-shadow: 10px 10px 10px 00px #75767692;
+    letter-spacing: 1px;
+    border:solid;
+    border-width: 1px;
+    border-color:   rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.list .item:hover{
+    text-align: center;
+    background-color:  #0cc2f050;
+    padding: 20px;
+    padding-right: 27px;
+    box-shadow: 0 20px 20px #757676;
+    letter-spacing: 1px;
+    border:solid;
+    border-width: 1px;
+    border-color:   rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.list .item img{
+    width: 110%;
+    border-radius: 7px;
+    height: 75px;
+    object-fit: cover;
+}
+.list .item .title{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+    font-family: inter;
+}
+.list .item .rs{
+    margin: 8px;
+    text-align: right;
+}
+.list .item .price{
+    margin: 8px;
+    text-align: left;
+    display: none;
+}
+.list .item button{
+    background-color:  rgba(255,109,10,1);
+    color: #fff;
+    width: 100%;
+ 
+    position: static;
+    top: 10px;
+    border: none;
+    padding: 15px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+
+
+.list.item button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+ .list .item button:hover span {
+  
+   color: black;
+  }
+  
+  .list.item button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.list.item:hover{
+    background-color: aqua;
+}
+
+.card{
+    position: fixed;
+    top: 54px;
+    left: 105%;
+    height: 85%;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.157);
+    overflow: hidden;
+    transition: 0.5s;
+    border: solid;
+    box-shadow: #757676;
+    border-color: rgb(15, 0, 0);
+    border-top-left-radius: 41px;
+    border-top-right-radius: 41px;
+    border-bottom-left-radius: 41px;
+    border-bottom-right-radius: 41px;
+    backdrop-filter: blur(5px);
+    
+}   
+
+
+.active .card{
+    left: calc(100% - 80%);
+  
+
+}
+.active .container{
+   transform: translateX(-200px);
+}
+.card h1{
+    color:rgb(0, 0, 0);
+    font-weight: 100px;
+    font-size: 30px;
+    margin: 0;
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.card .checkOut{
+    position: absolute;
+    justify-content: center;
+     left: 50px;
+     top: 550px;
+    
+    width: 84%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.card .checkOut div{
+    background-color:  rgba(255,109,10,1);
+    width: 115%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.card .checkOut div:hover{
+    background-color:  rgba(255,109,10,1);
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    
+    
+}
+
+
+
+
+.card .checkOut div:nth-child(2){
+    background-color: #0cc3f0;
+    color: #000000;
+   position: absolute;
+  width: 50%;
+  top: 10px;
+  left: 360px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+ 
+}
+
+.card .checkOut div:nth-child(2):hover{
+    background-color: #0cc3f0;
+    color: #fdfdfd;
+
+
+}
+
+
+.listCard li{
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr);
+    color: #000000;
+    row-gap: 10px;
+    background-attachment: fixed;
+}
+.listCard li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listCard li img{
+    width: 48%;
+    height: 70%;
+    border-radius: 10px;
+   
+}
+.listCard li button{
+    background-color: rgba(0, 0, 0, 0.333);
+    border: none;
+    border-radius: 90px;
+    width: -80%;
+   
+    
+}
+.listCard .count{
+    margin: 0 10px;
+}
+.back{
+    width: 95%;
+    height:90%;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position:absolute;
+    top:5.5%;
+    left:2.5%;
+    border-top-left-radius: 41px;
+    border-top-right-radius: 41px;
+    border-bottom-left-radius: 41px;
+    border-bottom-right-radius: 41px;
+    overflow: hidden;
+    z-index: 1;
+    background-attachment: fixed;
+    
+}
+ 
+.searchbar{
+    border-color: rgba(0,224,255,0.5699999928474426);
+
+    
+  }
+
+  .topbar{
+    background-color:white;
+    width: 1000px;
+    height: 48px;
+    margin-left: 50px;
+    margin-top: 90px;
+    border-color: skyblue;
+    border-style: solid;
+    border-radius: 7px;
+    position: absolute;
+    left: 70px;
+    top: 1px;
+    
+  }
+ 
+input{
+    width: 300px;
+    height: 30px;
+    border-color: white;
+    border-style: solid;
+}
+select{
+    padding-left: 10px;
+    height: 30px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+   
+}
+
+.checkOut button{
+    border-radius: 40px;
+    background-color: transparent   ;
+}
+
+.checkOut button:hover{
+    border-radius: 39px;
+}
+     
+.checkOut button:hover::after{
+    content: ' *Buy now';
+    font-size: 24px;
+    font-weight: bold;
+   
+    color: #000000;
+    position: absolute;
+  bottom: 52px;
+  right: 433px;
+
+    
+}

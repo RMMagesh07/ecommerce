@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap');
+* {
+    box-sizing: border-box;
+    
+  }
+  body {
+    font-size: 14px;
+    background-color:  rgba(0,224,255,0.5699999928474426);
+    overflow:hidden;
+  }
+  .m1{
+    position: absolute;
+          top: 30px;
+          left: 107px;
+  }
+  .m2{
+    position: absolute;
+          top: 30px;
+          left: 1187px;
+  }
+  
+  .v83_3 {
+    width: 95%;
+    height:90%;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position:absolute;
+    top:5.5%;
+    left:2.5%;
+    border-top-left-radius: 41px;
+    border-top-right-radius: 41px;
+    border-bottom-left-radius: 41px;
+    border-bottom-right-radius: 41px;
+  
+  }
+  .v83_4 {
+    width: 100px;
+    height: 100px;
+    background: url("../images/v83_4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 28px;
+    left: 810px;
+    overflow: hidden;
+  }
+  
+  
+
+  .v83_13 {
+    width: 59%;
+    height: 490px;
+    background: url("../images/v83_13.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left:-125px;
+    overflow:visible
+  }
+  .v83_15 {
+    width: 30px;
+    height: 34px;
+    background: url("images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    left: 52px;
+    overflow: hidden;
+  }
+  .v84_16 {
+    width: 393px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 30px;
+    left: 88px;
+    font-family: Inter;                       
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+ 
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v109_114 {
+    width: 310px;
+    height: 116px;
+    background: url("../images/v109_114.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 759px;
+    left: 1209px;
+    overflow: hidden;
+  }
+ 
+
+  .cl17 button{
+    width: 140px;
+    height: 37px;
+    background: rgba(255,109,10,1);
+    opacity: 1;
+    position: absolute;
+    top: 190px;
+    left: 125px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+  }
+  .cl17 button:hover{
+    width: 140px;
+    height: 37px;
+    background: rgb(18, 7, 0);
+    opacity: 1;
+    position: absolute;
+    top: 190px;
+    left: 125px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+  }
+ 
+  .cl18 button{
+    width: 140px;
+    height: 37px;
+    background: rgba(255,109,10,1);
+    opacity: 1;
+    position: absolute;
+    top: 190px;
+    left: 295px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+  }
+  .cl18 button:hover{
+    width: 140px;
+    height: 37px;
+    background: rgb(18, 7, 0);
+    opacity: 1;
+    position: absolute;
+    top: 190px;
+    left: 295px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+  }
+
+  .c19 h1{
+    position: absolute;
+    top: 90px;
+    left:122px;
+    font-family: inter;
+    font-weight: bold;
+  }
+  .c19 h3{
+    position: absolute;
+    top: 60px;
+    left:122px;
+    font-family: inter;
+    font-weight:lighter;
+
+  }
+  .c19 h2{
+    position: absolute;
+    top: 225px;
+    left:123px;
+    font-family: inter;
+    font-weight:normal;
+    font-size: 18px;
+   
+  }
+  .c19 h4{
+    position: absolute;
+    top: 470px;
+    left:123px;
+    font-family: inter;
+    font-weight:normal;
+    font-size: 18px;
+    
+   
+    
+  }
+
+  .cl9{
+    animation: 5s slide-left;
+  }
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  
+
+  .cl20 {
+    width:610px;
+    height: 490px;
+    background: url("images/landingAccessories.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 42px;
+    left: 991px;
+    overflow:visible;
+    padding-left: -50px;
+  }
+  .cl21{
+    width:100px;
+    height: 100px;
+    background: url("images/brand1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 540px;
+    left: 130px;
+    overflow:visible;
+  
+  }
+  .cl21:hover{
+    width:100px;
+    height: 100px;
+    background: url("images/brand1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 535px;
+    left: 130px;
+    overflow:visible;
+    
+  
+  }
+
+  .cl22{
+    width:80px;
+    height: 68px;
+    background: url("images/brand2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 540px;
+    left: 270px;
+    overflow:visible;
+  }
+  .cl22:hover{
+    width:80px;
+    height: 68px;
+    background: url("images/brand2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 545px;
+    left: 270px;
+    overflow:visible;
+  }
+
+  .cl23{
+    width:80px;
+    height: 68px;
+    background: url("images/brand3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 545px;
+    left: 410px;;
+    overflow:visible;
+  }
+  .cl23:hover{
+    width:80px;
+    height: 68px;
+    background: url("images/brand3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 550px;
+    left: 410px;;
+    overflow:visible;
+  }
+  
+
+  .cl24{
+    width:80px;
+    height: 68px;
+    background: url("images/brand4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    overflow:visible;
+  }
+
+  .cl24:hover{
+    width:80px;
+    height: 68px;
+    background: url("images/brand4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 555px;
+    left: 550px;
+    overflow:visible;
+  }
+
+  .cl25{
+    width:80px;
+    height: 68px;
+    background: url("images/brand6.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 545px;
+    left: 690px;
+    overflow:visible;
+  }
+
+  .cl25:hover{
+    width:80px;
+    height: 68px;
+    background: url("images/brand6.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 550px;
+    left: 690px;
+    overflow:visible;
+  }
+
+
+  .cl26{
+    width:80px;
+    height: 68px;
+    background: url("images/brand7.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 545px;
+    left: 840px;
+    overflow:visible;
+  }
+
+  .cl26:hover{
+    width:80px;
+    height: 68px;
+    background: url("images/brand7.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    opacity: 1;
+    position: absolute;
+    top: 550px;
+    left: 840px;
+    overflow:visible;
+  }
+
+  
+
+section {
+    padding: 20px;
+}
+.featured{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+.featured h2{
+    top:100px;
+}
+.product-carousel{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: max-content(200px);
+    position: relative;
+    top: 306px;;
+    left: 82px;
+}
+.brand-carousel{
+    width: 27%;
+}
+.product img{
+    height: 120px;
+
+
+}
+h5{
+    font-size: 11px;
+}
+.offer{
+    color: rgb(255, 136, 0);
+    font-size: 10px;
+}
+
+.offer:hover{
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+}
+.product {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    width: 30%;
+    height: 80px;
+    text-align: center;
+}
+
+
+.product{
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.808);
+}
+
+.product img{
+    width: 100%;
+    margin: 0px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+.brand{
+    background-color: transparent;
+}
+.brand-carousel{
+    width: 100%;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65%;
+    margin-right: 10%;
+    position: relative;
+    bottom: 60px;
+}
+.nav{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.818);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    box-shadow: none;
+}

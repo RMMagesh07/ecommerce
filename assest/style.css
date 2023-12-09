@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+    background-color:  rgba(0,224,255,0.5699999928474426);
+  }
+  .m1{
+    position: absolute;
+          top: 30px;
+          left: 107px;
+  }
+  .m2{
+    position: absolute;
+          top: 30px;
+          left: 1187px;
+  }
+  
+  .cl1 {
+    width: 90%;
+    height:83%;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position:absolute;
+    top:9%;
+    left:5%;
+    border-top-left-radius: 41px;
+    border-top-right-radius: 41px;
+    border-bottom-left-radius: 41px;
+    border-bottom-right-radius: 41px;
+  
+  }
+  .cl2 {
+    width: 100px;
+    height: 100px;
+    background: url("../images/v83_4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 28px;
+    left: 810px;
+    overflow: hidden;
+  }
+  .cl3 {
+    width: 28%;
+    height: 65%;
+    background: linear-gradient(rgba(17,7,133,1), rgba(6,0,82,1));
+    opacity: 1;
+    position: absolute;
+    top: 33%;
+    left: 9%;
+    border-radius: 50%;
+  }
+  .cl6 {
+    width: 28%;
+    height: 65%;
+    background: linear-gradient(rgba(17,7,133,1), rgba(6,0,82,1));
+    opacity: 1;
+    position: absolute;
+    top: 33%;
+    left: 9%;
+    border-radius: 50%;
+    
+  }
+  .cl4 {
+    width: 340px;
+    height: 90px;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    position: absolute;
+    top: 490px;
+    left: 148px;
+   
+  }
+  .cl5 {
+    width: 59%;
+    height: 490px;
+    background: url("images/loginn1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left:-128px;
+    overflow:visible
+  }
+  .cl7 {
+    width: 38px;
+    height: 38px;
+    background: url("images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 32px;
+    left: 52px;
+    overflow: hidden;
+  }
+  .cl8 {
+    width: 200px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 44px;
+    left: 99px;
+    font-family: Inter;                       
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .cl9 {
+    width: 579px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 95px;
+    left:750px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 38px;
+    opacity: 1;
+    text-align: left;
+  }
+  .cl10 {
+    width:400px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 194px;
+    left: 753px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .cl12 {
+    width: 596px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 327px;
+    left: 754px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .cl11 {
+    width: 510px;
+    height: 85px;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    position: absolute;
+    top: 225px;
+    left: 753px;
+    border: 4px solid rgb(255, 255, 255);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+  }
+  .cl13 {
+    width: 510px;
+    height: 85px;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    position: absolute;
+    top: 359px;
+    left: 753px;
+    border: 4px solid rgb(255, 255, 255);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .cl16 {
+    width: 310px;
+    height: 116px;
+    background: url("../images/v109_114.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 759px;
+    left: 1209px;
+    overflow: hidden;
+  }
+  .cl14 {
+    width: 302px;
+    height: 76px;
+    background: rgba(255,109,10,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+  }
+  .cl15 {
+    width: 310px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+  }
+  
+   
