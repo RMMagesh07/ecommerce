@@ -25,6 +25,9 @@ List the key features of your ecommerce website. This could include:
 - Checkout process
 - etc.
 
+##Contribution
+                         1.R.Mari Magesh - mari08magesh@gmail.com  github: https://github.com/RMMagesh07
+                         2.Jeevapriyasharani - jeevajeeva61059@gmail.com  github: https://github.com/jeevapriyasharni
 
 ## Installation
 
@@ -40,9 +43,7 @@ cd ecommerce-website
 # Install dependencies
 npm install
 
-##Contribution
-                         1.R.Mari Magesh - mari08magesh@gmail.com  github: https://github.com/RMMagesh07
-                         2.Jeevapriyasharani - jeevajeeva61059@gmail.com  github: https://github.com/jeevapriyasharni
+
         
 
 # Configure the environment variables
