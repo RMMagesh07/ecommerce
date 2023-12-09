@@ -37,7 +37,7 @@ Provide step-by-step instructions on how to install and set up your project loca
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone <https://github.com/RMMagesh07/ecommerce-website.git>
 
 # Navigate to the project directory
 cd ecommerce-website
