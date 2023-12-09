@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link href="images/logo.png" rel="icon">
+    <link rel="stylesheet" href="assest/shopping.css">
+
+    <style type="text/css">
+        a{
+            color:rgb(0, 0, 0);
+            font-family: inter;
+            opacity: 1;
+            font-weight: bold;
+            text-decoration: none;
+            
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: #ffffff;
+            position: absolute;
+            top: 20px;
+            left:1050px;
+            font-family: inter;
+          }
+          
+          .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            font-family: inter;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            border-bottom: 3px solid transparent;
+            animation-duration: 2s;
+          }
+          
+          .topnav a:hover {
+            border-bottom: 3px solid rgba(0,224,255,0.5699999928474426);
+          
+          }
+          
+          .topnav a:active {
+            border-bottom: 2px solid rgba(0,224,255,0.5699999928474426);
+            border-width: 7px;
+          }
+          .table{
+            font-size: 24px;
+            width: 100px;
+         
+          }   
+          
+      
+    button {
+      margin-right: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color:rgba(255,109,10,1);
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+  
+
+   
+
+    </style>
+</head>
+<body class="">
+ <div class="back">
+
+ 
+  
+        <div class="topnav">
+            <a href="home.html">Home</a>
+            <a href="" class="active"><font style="font-size: large; color:aqua; font-weight:bold">Explore</font></a>
+            <a href="profile.html">My Account</a>
+          </div>
+
+        <div class="logo"></div>
+        <span class="cdshop"><u>CD Shopee</u></span>
+        <div class="name"></div>
+        <div class="name"></div>
+        <header>
+           
+            <div class="shopping">
+                <img src="images/shopping.svg">
+                <span class="quantity">0</span>
+            </div>
+        </header>
+
+        <section class="topbar">
+            <div class="searchbar">
+              <table>
+                 <tr><td><input type="text" placeholder="Search Products...">      |</td>
+                     <td> <label style="padding-left: 100px;">Filter by :    </label>
+                        <select>
+                            <option><b>All Categories</b></option>
+                            <option>Under 200</option>
+                                    <option>New collection</option>
+                                    <option>Trending</option>
+                        </select> </td>  
+
+                     <td>  |<label style="padding-left: 100px;"> Sort by :    </label>
+                                <select >
+                                    <option>Reveance</option>
+                                    <option>cosmetics</option>
+                                    <option>Bags</option>
+                                    <option>Glass</option>
+                                    <option>Shirts</option>
+
+                                </select></td>   
+                </tr>
+              </table>
+            </div>
+        </section>
+    
+
+    <div class="list"></div>
+        <div class="card">
+          <h1>checkout item(s)</h1>
+          <ul class="listCard">
+          </ul>
+          <div class="checkOut">
+          
+           <button onclick="openMessageBox()">  <a href="#"><div class="total">0</div></a></button>
+              <div class="closeShopping">Cancel</div>
+          </div>
+    </div>
+  
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+<script src="assest/shopping.js"></script>
+<script>
+  function openMessageBox() {
+
+   
+    Swal.fire({
+      title: 'Order Placed Successfully',
+      icon:'success',
+      confirmButtonColor: 'blue',
+    }).then((result)=> {
+      if(result.isConfirmed){
+        location.reload(true);
+
+      }
+    });
+ }
+ 
+
+
+
+</script>
+
+   
+    
+</div>
+
+
+  
+</body>
+</html>
