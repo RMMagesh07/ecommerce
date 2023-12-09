@@ -1,15 +1,15 @@
 # ecommerce
 # Ecommerce Website Project
 
-Welcome to the Ecommerce Website project! This project is a fully functional ecommerce website built with [insert technology stack here].
+Welcome to the Ecommerce Website project! This project is a fully functional ecommerce website built with Html css and Javascript.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Getting Started](#getting-started)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Contribution](#Contribution)
+
 
 ## Introduction
 
@@ -25,9 +25,6 @@ List the key features of your ecommerce website. This could include:
 - Checkout process
 - etc.
 
-## Getting Started
-
-If there are any prerequisites or dependencies for running your project, mention them here. Include links to external resources if necessary.
 
 ## Installation
 
@@ -42,6 +39,11 @@ cd ecommerce-website
 
 # Install dependencies
 npm install
+
+##Contribution
+                         1.R.Mari Magesh - mari08magesh@gmail.com  github: https://github.com/RMMagesh07
+                         2.Jeevapriyasharani - jeevajeeva61059@gmail.com  github: https://github.com/jeevapriyasharni
+        
 
 # Configure the environment variables
 cp .env.example .env
